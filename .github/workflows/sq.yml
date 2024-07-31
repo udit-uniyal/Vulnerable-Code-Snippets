@@ -24,7 +24,7 @@ jobs:
       - uses: sonarsource/sonarqube-scan-action@master
         with:
           args: -Dsonar.projectBaseDir=.
-          SONAR_TOKEN: 'sqp_ba2c298a069f3f759905e79de22c3e8717e5f118'
+          SONAR_TOKEN: 'squ_da7a61b39943f4d8b0cb09458ba20362ed06f8c4'
           SONAR_HOST_URL: 'https://sq.accuknox.com'
           SONAR_SCANNER_EXTRA_ARGS: >
             -Dsonar.exclusions=**/*.java
